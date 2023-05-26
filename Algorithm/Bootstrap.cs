@@ -19,7 +19,6 @@ namespace Algorithm
             TestBinaryInsertionSort(queue);
         }
 
-
         private static void TestBinaryInsertionSort(IndexedQueue<int> queue)
         {
             queue.Comparator = new IntComparator();
