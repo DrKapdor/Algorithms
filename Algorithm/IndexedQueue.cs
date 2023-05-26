@@ -64,7 +64,7 @@
         {
             if (comparator == null)
             {
-                throw new Exception("Comparator is not undefined");
+                throw new Exception("Comparator is undefined");
             }
             for (int i = 1; i < Count; i++)
             {
@@ -93,7 +93,7 @@
             }
         }
 
-        //Переопределяем индексацию
+        //Переопределяем индексатор
         public T this[int index]
         {
             get => Get(index);
