@@ -1,6 +1,4 @@
-﻿using System.Xml.Linq;
-
-namespace Algorithm
+﻿namespace Algorithm
 {
     public class Bootstrap
     {
