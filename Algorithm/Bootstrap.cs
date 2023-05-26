@@ -27,10 +27,7 @@ namespace Algorithm
             queue.BinaryInsertionSort();
             long end = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
             Console.WriteLine("Результат:");
-            while (queue.Count > 0)
-            {
-                Console.WriteLine(queue.Dequeue());
-            }
+            while (queue.Count > 0) Console.WriteLine(queue.Dequeue());
             Console.WriteLine($"Время сортировки: {end - start} мс.");
         }
 
